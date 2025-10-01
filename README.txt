@@ -1,7 +1,7 @@
 Proyecto Reconocimiento de Dígitos – 2do Corte
 ==============================================
 
-Aplicación desarrollada en React + TypeScript + Vite para reconocer dígitos escritos a mano (dataset estilo MNIST).
+Aplicación desarrollada en React + TypeScript + Vite para reconocer dígitos escritos a mano 
 
 ----------------------------------------------------
 📌 Requisitos previos
@@ -18,11 +18,9 @@ Aplicación desarrollada en React + TypeScript + Vite para reconocer dígitos es
 3. Inicia el servidor de desarrollo:
    npm run dev
    La aplicación se abrirá en:
-   👉 http://localhost:5173
+    http://localhost:5173
 
-4. Para generar una build de producción:
-   npm run build
-   npm run preview
+
 
 ----------------------------------------------------
 🖥️ Uso de la aplicación
@@ -55,6 +53,6 @@ Aplicación desarrollada en React + TypeScript + Vite para reconocer dígitos es
 ⚠️ Notas importantes
 ----------------------------------------------------
 - Solo se aceptan imágenes de 28×28 píxeles (se normalizan si no cumplen).
-- El historial queda guardado localmente en tu navegador (no en archivos externos).
+- El historial queda guardado localmente en tu navegador.
 - Si deseas borrar el historial:
   - Abre DevTools (F12) → pestaña Application → Local Storage → limpia la clave "predict_history".
